@@ -27,6 +27,7 @@
 #Best-Sellers #BS-images {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 10px;
 }
 
 #Best-Sellers #BS-images #big-Box {
@@ -34,7 +35,7 @@
 }
 
 #Best-Sellers #BS-images #big-Box li a img {
-	width: 100%;
+	width: 140%;
 }
 
 #Best-Sellers #BS-images #lit-Box {
@@ -60,7 +61,41 @@
 }
 
 @media (min-width: 768px) {
-	#Best-Sellers {
-		margin-top: -30px;
+
+	#Best-Sellers #BS-images {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#Best-Sellers #BS-images #big-Box {
+		height: 450px;
+		overflow: hidden;
+		width: 60%;
+		float: left;
+	}
+
+	#Best-Sellers #BS-images #big-Box img {
+		height: 100%;
+	}
+
+	#Best-Sellers #BS-images #lit-Box {
+		width: 35%;
+		float: right;
+		height: 400px;
+		overflow: hidden;
+		flex-direction: column;
+		justify-content: space-between;
+		left: 10px;
+	}
+
+	#Best-Sellers #BS-images #lit-Box li {
+		width: 100%;
+		height: 50%;
+		overflow: hidden;
+	}
+
+	#Best-Sellers #BS-images #lit-Box li a img{
+		height: 100%;
+		width: auto;
 	}
 }

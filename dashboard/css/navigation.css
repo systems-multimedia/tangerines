@@ -6,8 +6,8 @@
 }
 
 #navi figure a #logo {
-    margin: 6px auto;
-    width: 200px;
+    margin: 0;
+    width: 300px;
     display: none;
 }
 
@@ -31,6 +31,13 @@
     font-size: 20px;
     width: 300px;
 }
+
+#navi #search-form #search-btn {
+    cursor: pointer;
+    display: none;
+    margin: 2px 10px;
+}
+
 #navi .menu {
     position: absolute;
     z-index: 100;
@@ -58,4 +65,78 @@
 
 .nav-item:hover {
     background: rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 768px) {
+    
+    #navi {
+        display: flex;
+    }
+
+    #navi figure a #logo {
+        display: initial;
+    }
+
+    #menu-lbl {
+        display: none;
+    }
+
+    #navi .menu {
+        transform: translateX(0%);
+        height: 100px;
+        top: auto;
+        background: none;
+        margin: 65px 20px auto 38%;
+        transition: none;
+    }
+
+    #navi .menu .nav-item {
+        border: none;
+        float: left;
+        font-size: 8pt;
+    }
+
+    #navi .menu .nav-item:hover {
+        background: none;
+        color: #ffa63d;
+    }
+
+    #navi #search-form {
+        align-self: center;
+        position: relative;
+        top: auto;
+    }
+
+    #navi #search-form #search-box {
+        width:200px;
+        padding: 2px 4px;
+    }
+
+    #navi #search-form #search-btn {
+        display: block;
+        float: right;
+    }
+
+    #navi #search-form #search-lbl {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 920px) {
+    #navi figure a img {
+        width: 400px;
+    }
+
+    #navi .menu {
+        margin: 60px 20px auto 38%;
+    }
+
+}
+
+@media (min-width: 1024px){
+    #navi .menu {
+        margin: 60px 20px auto 40%;
+    }
 }

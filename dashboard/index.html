@@ -41,20 +41,21 @@
     <!--    Start Header    -->
     <header>
         <div id="navi">
-            <figure><a href=""><img src="../img/Logo-La-Mandarina-con-Mandarina-Gris.png" alt="Logo" width="300px" id="logo"></a></figure>
+            <figure><a href=""><img src="../img/Logo-La-Mandarina-con-Mandarina-Gris.png" alt="Logo" id="logo"></a></figure>
             <input type="checkbox" name="_menu" id="menu-bar" class="--no-visible">
             <label for="menu-bar" class="icon-menu lbl" id="menu-lbl"></label>
+             <form action="" id="search-form">
+                <input type="text" name="search-box" id="search-box" placeholder="Search">
+                <input type="submit" value="Search" id="search-btn" class="btn">
+                <label for="search-btn" class="icon-search lbl" id="search-lbl"></label>
+            </form>
             <nav class="menu">
                 <a href="#" class="nav-item">Products</a>
                 <a href="#" class="nav-item">Best Sellers</a>
                 <a href="#" class="nav-item">Offers</a>
                 <a href="#" class="nav-item">Recommended</a>
             </nav>
-            <form action="" id="search-form">
-                <input type="text" name="search-box" id="search-box" placeholder="Search">
-                <input type="submit" value="Search" id="search-btn" class="btn --no-visible">
-                <label for="search-btn" class="icon-search lbl" id="search-lbl"></label>
-            </form>
+                <h4><a href="" id="userName">UserName</a></h4>
         </div>
     </header>
     <!--    End of Header   -->
@@ -96,13 +97,13 @@
                 <img src="./img/tablet.jpg" alt="banner">
             </figure>
             <div id="banner-options">
-                <h1 class="banner-item --title">Best Offers</h1>
-                <h2 class="banner-item --price">Prices</h2>
+                <h1 class="banner-item --title btn">Best Offers</h1>
+                <h2 class="banner-item --price btn">Prices</h2>
             </div>
         </section>
 
         <section id="Best-Sellers">
-            <h2><a href="">Best-Sellers</a></h2>
+            <h2><a href="" class="btn">Best-Sellers</a></h2>
             <ul id="BS-images">
                 <div id="big-Box">
                     <li> <a href=""> <img src="./img/model.jpg" alt="img1"> </a> </li>
