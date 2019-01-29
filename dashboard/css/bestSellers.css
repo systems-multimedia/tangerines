@@ -1,0 +1,66 @@
+#Best-Sellers {
+	width: 100%;
+	margin-top: -50px;
+}
+
+#Best-Sellers h2 {
+	position: absolute;
+	transform: translateY(100px);
+	background: #ffa63d;
+	border-radius: 10px;
+	left: 30%;
+}
+
+#Best-Sellers h2 a {
+	color: black;
+	padding: 5px 12px;
+}
+
+#Best-Sellers h2:hover {
+	background: #e56700;
+}
+
+#Best-Sellers h2 a:hover {
+	color: white;
+}
+
+#Best-Sellers #BS-images {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Best-Sellers #BS-images #big-Box {
+	width: 100%;
+}
+
+#Best-Sellers #BS-images #big-Box li a img {
+	width: 100%;
+}
+
+#Best-Sellers #BS-images #lit-Box {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Best-Sellers #BS-images #lit-Box li{
+	width: 50%;
+}
+
+#Best-Sellers #BS-images #lit-Box li a img {
+	width: 90%;
+	padding: 10px 5%;
+	/*margin: auto;*/
+}
+
+@media (min-width: 480px) {
+	#Best-Sellers {
+		margin-top: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	#Best-Sellers {
+		margin-top: -30px;
+	}
+}

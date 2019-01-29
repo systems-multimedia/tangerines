@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand');
+@import url('./navigation.css');
+@import url('./catalog.css');
+@import url('./footer.css');
+@import url('./bestSellers.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+    border-radius: 10px;
+    background: #e56700;
+    border: none;
+    padding: 5px 6px;
+}
+
+.lbl {
+    font-size: 30px;
+    color: #e56700;
+    cursor: pointer;
+}
+
+.--no-visible {
+    display: none;
+}
+.--visible {
+    display: block;
+}
+
