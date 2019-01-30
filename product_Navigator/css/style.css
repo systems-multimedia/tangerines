@@ -1,0 +1,11 @@
+@import url('../../common-Files/css/defaultSet.css');
+@import url('./products.css');
+@import url('./sidebar.css');
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 98%;
+    margin: 15px auto;
+}

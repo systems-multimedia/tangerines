@@ -1,11 +1,6 @@
-/****   THIS IS THE FONT USED --- PLEASE DON'T USE ANOTHER ONE  ****/
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand');
-@import url('../../common-Files/css/defaultSet.css');
-
-/****   THIS IS THE FONT USED --- PLEASE DON'T USE ANOTHER ONE  ****/
-
-/****   PAGE FORMATTER --- JUST USE THIS IN MAIN STYLE SHEET****/
+@import url('./navigation.css');
+@import url('./footer.css');
 
 * {
     margin: 0;
@@ -17,8 +12,6 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
-
-/***** MAIN CLASSES --- JUST USE THIS IN MAIN STYLE SHEET******/
 .btn {
     border-radius: 20px;
     background: #e56700;
@@ -57,37 +50,8 @@
     overflow: hidden;
 }
 
-/****   FOOTER STYLES   *****/
-
-footer {
+.banner {
     width: 100%;
-    background: #2c2c2c;
-}
-
-footer h3 {
-    color: white;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 10px;
-}
-
-footer ul {
-    display: flex;
-}
-
-footer ul li {
-    bottom: 10px;
-    padding: 10px 6px;
-    width: 25%;
-    text-align: center;
-}
-
-footer ul li a {
-    color: white;
-    font-size: 12px;
-}
-
-footer ul li a:hover {
-    color: #ffa63d;
+    height: 450px;
+    overflow: hidden;
 }
