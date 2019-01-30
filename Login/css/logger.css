@@ -1,0 +1,82 @@
+main {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../common-Files/img/spriteSheets/sp1-bg.jpg);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#log-options {
+    width: 600px;
+    background: #2c2c2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option {
+    width: 50%;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.logger {
+    width: 600px;
+    margin: 55px auto;
+    background: #2c2c2c;
+    position: absolute;
+    display: none;
+}
+
+.logger form {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.logger form li {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logger form li input {
+    margin: 15px auto;
+}
+
+.userData {
+    width: 75%;
+    height: 20px;
+    padding: 5px;
+    margin: 15px auto;
+}
+
+#register .userData {
+    margin: 10px auto;
+}
+
+#sign-in:checked ~ #SI{
+    display: block;
+}
+
+#sign-up:checked ~ #SU {
+    display: block;
+}
+
+.error {
+    color: red;
+    width: 75%;
+    margin: 10px auto;
+}

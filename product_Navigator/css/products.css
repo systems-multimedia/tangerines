@@ -41,11 +41,6 @@
 .product_tmb .product a h2:hover {
     color: #ffa63d;
 }
-
-.thumbnail {
-    width: 180px;
-}
-
 .stock {
     color: #00a651;
     margin-bottom: 50px;

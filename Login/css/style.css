@@ -1,0 +1,11 @@
+@import url('../../common-Files/css/defaultSet.css');
+@import url('./footer.css');
+@import url('./logger.css');
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 15px auto;
+    margin-top: 115px;
+}

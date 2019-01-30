@@ -1,0 +1,51 @@
+.column {
+    width: 19%;
+    background: #2c2c2c;
+}
+
+.column .category {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffa63d;
+}
+
+.offer-item {
+    width: 95%;
+    margin: 15px auto;
+}
+
+.offer {
+    width: 98%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.offer .thumbnail {
+    margin: 1px auto;
+}
+
+.offer .offer-title {
+    color: white;
+}
+
+.offer .offer-title:hover {
+    color: #ffa63d;
+}
+
+.offer ul li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.offer ul li p {
+    color: white;
+    font-size: 15px;
+}
+
+.price {
+    color: #00a651;
+}

@@ -55,3 +55,7 @@
     height: 450px;
     overflow: hidden;
 }
+
+.thumbnail {
+    width: 180px;
+}
