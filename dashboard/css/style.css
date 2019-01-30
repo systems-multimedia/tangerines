@@ -2,6 +2,7 @@
 @import url('./navigation.css');
 @import url('./catalog.css');
 @import url('./footer.css');
+@import url('./banner.css');
 @import url('./bestSellers.css');
 
 * {
@@ -15,11 +16,12 @@
 }
 
 .btn {
-    border-radius: 10px;
+    border-radius: 20px;
     background: #e56700;
     color: black;
     border: none;
     padding: 8px 10px;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -31,6 +33,10 @@
     font-size: 30px;
     color: #e56700;
     cursor: pointer;
+}
+
+.lbl:hover {
+    color: #ffa63d;
 }
 
 .--no-visible {

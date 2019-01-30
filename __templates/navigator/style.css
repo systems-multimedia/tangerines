@@ -1,3 +1,64 @@
+/****   THIS IS THE FONT USED --- PLEASE DON'T USE ANOTHER ONE  ****/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand');
+
+/****   THIS IS THE FONT USED --- PLEASE DON'T USE ANOTHER ONE  ****/
+
+/****   PAGE FORMATTER  ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+}
+
+/***** MAIN CLASSES ******/
+.btn {
+    border-radius: 20px;
+    background: #e56700;
+    color: black;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ffa63d;
+    color: white;
+}
+
+.lbl {
+    font-size: 30px;
+    color: #e56700;
+    cursor: pointer;
+}
+
+.lbl:hover {
+    color: #ffa63d;
+}
+
+.--no-visible {
+    display: none;
+}
+.--visible {
+    display: block;
+}
+
+.container {
+    
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/***** END OF MAIN CLASSES ******/
+
+/***    NAV STYLES  ****/
+
 #navi{
     background: #2c2c2c;
     width: 100%;
