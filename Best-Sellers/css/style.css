@@ -1,0 +1,16 @@
+@import url('../../common-Files/css/defaultSet.css');
+@import url('./seller.css');
+
+/*
+body {
+    background-image: url(../../common-Files/img/spriteSheets/sp2-bg.jpg);
+    background-attachment: fixed;
+}*/
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 98%;
+    margin: 15px auto;
+}

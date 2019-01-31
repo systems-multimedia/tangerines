@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>La Mandarina C.A.</title>
 
-    <!--    Stylesheets     -->
-
+    <!--    Start Stylesheets   -->
+    <link rel="stylesheet" href="../product/css/style.css">
     <link rel="stylesheet" href="../common-Files/css/fontello.css">
-    <link rel="stylesheet" href="../dashboard/css/style.css">
-
-    <!--    End of Stylesheets      -->
+    <!--    End of Stylesheets  -->
 
     <!--    Start of Favicon - Icon for different Platforms     -->
 
@@ -35,13 +32,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--    End of Favicon      -->
+
+    <title>Product View</title>
 </head>
 
 <body>
     <!--    Start Header    -->
     <header>
         <div id="navi" class="container">
-            <figure><a href="./dashboard.html"><img src="../common-Files/img/Logo-La-Mandarina-con-Mandarina-Gris.png" alt="Logo" id="logo"></a></figure>
+            <figure><a href="./dashboard.html"><img src="../common-Files/img/Logo-La-Mandarina-con-Mandarina-Gris.png"
+                        alt="Logo" id="logo"></a></figure>
             <form action="" id="search-form">
                 <input type="text" name="search-box" id="search-box" placeholder="Search">
                 <input type="submit" value="Search" id="search-btn" class="btn">
@@ -71,64 +71,83 @@
     </header>
     <!--    End of Header   -->
 
-    <!--    Start of Main   -->
+
+    <!--    Start Main      -->
 
     <main>
-
-        <section id="Banner1" class="container banner">
-            <figure>
-                <img src="../img/tablet.jpg" alt="banner">
-            </figure>
-
-            <div class="container">
-                <h1><a href="" class="btn --banner-text">Best Offers</a></h1>
-            </div>
+        <section id="app">
+            <section id="product">
+                <figure id="IMG"><img src="http://loremimage.com/500/300" alt="" class="product-img"></figure>
+                <ul id="product-options">
+                    <li>
+                        <h1>Product Name</h1>
+                    </li>
+                    <li>
+                        <h5>by <a href="">Seller</a></h5>
+                    </li>
+                    <hr>
+                    <li>
+                        <h4>Price: <span class="price" id="product-price">XXX</span></h4>
+                    </li>
+                    <li>
+                        <h4>Shipping: <span class="--info-mini" id="ship-price">XXX</span></h4>
+                    </li>
+                    <li>
+                        <h4>Ship between <span class="--info-mini" id="ship-time">3 days</span></h4>
+                    </li>
+                    <li>
+                        <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel aperiam, quae
+                            asperiores enim magnam dolorum inventore sint sunt voluptatum expedita itaque ab harum
+                            cumque ea libero quidem rerum repellendus consequatur obcaecati assumenda similique
+                            pariatur reprehenderit soluta voluptate. Tempora delectus non numquam beatae illo!
+                            Asperiores eum voluptas error ex quam ab!</p>
+                    </li>
+                    <ul id="description">
+                        <li class="description">
+                            description
+                        </li>
+                        <li class="description">
+                            description
+                        </li>
+                        <li class="description">
+                            description
+                        </li>
+                        <li class="description">
+                            description
+                        </li>
+                        <li class="description">
+                            description
+                        </li>
+                    </ul>
+                </ul>
+                <div class="sideBar --sideBar-right --sideBar-left" id="buy-options">
+                    <div>
+                        <h2>Custom:</h2>
+                        <form action="" method="get" id="custom">
+                            <div class="form-options">
+                                <h3>Color:</h3>
+                                <input type="radio" name="color" id="black" class="--no-visible">
+                                <input type="radio" name="color" id="red" class="--no-visible">
+                                <label for="black" class="lbl --custom-lbl" id="black-lbl"></label>
+                                <label for="red" class="lbl --custom-lbl" id="red-lbl"></label>
+                            </div>
+                            <div class="form-options">
+                                <h3>Size:</h3>
+                                <input type="radio" name="size" id="big" class="--no-visible">
+                                <input type="radio" name="size" id="small" class="--no-visible">
+                                <label for="big" class="btn">big</label>
+                                <label for="small" class="btn">small</label>
+                            </div>
+                            <li><input type="submit" value="Add in Basket" class="btn" id="add"></li>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </section>
-
-        <section id="Recommended">
-            <input type="checkbox" id="left-arrow1" class="--no-visible">
-            <input type="checkbox" id="right-arrow1" class="--no-visible">
-            <label for="left-arrow1" class="icon-left-open arrow --left-arrow" id="left1"></label>
-            <label for="right-arrow1" class="icon-right-open arrow --right-arrow" id="right1"></label>
-            <div class="container products">
-                <article class="product">
-                    <img src="../img/tablet.jpg" width="250" height="250" alt="">
-                    <h2><a href="">Artículo</a></h2>
-                </article>
-                <article class="product">
-                    <img src="../img/tablet.jpg" width="250" height="250" alt="">
-                    <h2><a href="">Artículo</a></h2>
-                </article>
-                <article class="product">
-                    <img src="../img/tablet.jpg" width="250" height="250" alt="">
-                    <h2><a href="">Artículo</a></h2>
-                </article>
-                <article class="product">
-                    <img src="../img/tablet.jpg" width="250" height="250" alt="">
-                    <h2><a href="">Artículo</a></h2>
-                </article class="product">
-                <article class="product">
-                    <img src="../img/tablet.jpg" width="250" height="250" alt="">
-                    <h2><a href="">Artículo</a></h2>
-                </article>
-            </div>
-        </section>
-
-        <section id="Best-Sellers">
-            <div class="container">
-                <h1><a href="" class="btn">Best Sellers</a></h1>
-            </div>
-            <div id="best-items">
-                <div class="best-item banner" id="BS1"></div>
-                <div class="best-item banner --no-visible" id="BS2"></div>
-                <div class="best-item banner --no-visible" id="BS3"></div>
-                <div class="best-item banner --no-visible" id="BS4"></div>
-            </div>
-        </section>
-
     </main>
 
     <!--    End of Main     -->
+
 
     <!--    Start of Footer -->
 
@@ -145,6 +164,7 @@
     </footer>
 
     <!--    End of Footer-->
+
 </body>
 
 </html>

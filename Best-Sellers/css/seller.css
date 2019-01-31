@@ -1,0 +1,54 @@
+#sellers {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background: white;
+}
+
+.--seller {
+    margin: 10px auto;
+    height: 250px;
+}
+
+.sell-item {
+    width: 98%;
+    margin: 10px auto;
+    background: #3c3c3c;
+}
+
+.sell-item .seller {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sell-item .seller a figure {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: 23px auto;
+}
+
+.sell-item .seller ul {
+    width: 68%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.sell-item .seller ul li {
+    margin: 15px 0px;
+    width: 98%;
+}
+
+.info {
+    width: 95%;
+    color: white;
+}
+
