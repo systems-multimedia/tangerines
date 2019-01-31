@@ -1,6 +1,7 @@
 footer {
     width: 100%;
     background: #2c2c2c;
+    transition: 100ms all ease-in-out;
 }
 
 footer h3 {
@@ -31,11 +32,6 @@ footer ul li a:hover {
     color: #ffa63d;
 }
 
-.--sticky-footer {
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-}
 
 .--sticky-footer ul {
     width: 25%;

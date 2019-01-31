@@ -115,3 +115,19 @@
     width: 100%;
     margin: 0px auto;
 }
+
+
+.options-area {
+    width: 600px;
+    background: #2c2c2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.option {
+    width: 50%;
+    text-align: center;
+    padding: 8px 0px;
+}

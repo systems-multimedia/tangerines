@@ -78,13 +78,62 @@
 
     <main>
         <section id="app">
+            <section id="location">
+                <section id="user-location">
+                    <div class="options-area" id="options">
+                        <label for="existing" class="lbl option">Current Address</label>
+                        <label for="-new" class="lbl option">New Address</label>
+                    </div>
+                    <input type="radio" name="add" id="existing" class="--no-visible" checked>
+                    <input type="radio" name="add" id="-new" class="--no-visible">
+                    <div id="option1" class="option-block">
+                        <div id="existing-data" class="data">
+                            <ul>
+                                <li>
+                                    <h3>Name: <span id="ship-name" class="address-data">Samuel</span> <span id="ship-last-name"
+                                            class="address-data">Boada</span></h3>
+                                </li>
+                                <li>
+                                    <h3>Country: <span id="ship-country" class="address-data">Venezuela</span></h3>
+                                </li>
+                                <li>
+                                    <h3>City: <span id="ship-city" class="address-data">Caracas</span></h3>
+                                </li>
+                                <li>
+                                    <h3>Address: <span id="office-address" class="address-data">Av. San Martin, Calle
+                                            el
+                                            Carmen, Casa #30</span></h3>
+                                </li>
+                                <li>
+                                    <h3>ZIP: <span id="ship-zip" class="address-data">1020</span></h3>
+                                </li>
+                            </ul>
+                            <figure><img src="../common-Files/img/gps-icon.png" alt="GPS ICON" class="thumbnail"></figure>
+                        </div>
+                    </div>
 
+                    <div id="option2" class="option-block">
+                        <div id="new-data" class="data">
+                            <form action="" id="add-data" method="GET">
+                                <input type="text" name="fname" id="fname" placeholder="First Name" class="loc-in">
+                                <input type="text" name="lname" id="lname" placeholder="Last Name" class="loc-in">
+                                <input type="text" name="country" id="country" placeholder="Country" class="loc-in">
+                                <input type="text" name="city" id="city" placeholder="City" class="loc-in">
+                                <input type="text" name="address" id="address" placeholder="Address" class="loc-in">
+                                <input type="text" name="zip" id="zip" placeholder="ZIP" class="loc-in">
+                                <li><input type="submit" value="Add Address" class="btn"></li>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
     </main>
 
     <!--    End of Main     -->
 
     <!--    Start of Footer -->
+
 
     <footer>
         <div class="container">
@@ -98,7 +147,13 @@
         </div>
     </footer>
 
-    <!--    End of Footer-->
+    <!--    End of Footer   -->
+
+    <!--    Start Script    -->
+
+    <script src="../common-Files/js/app.js"></script>
+
+    <!--    End of Script   -->
 </body>
 
 </html>

@@ -1,4 +1,5 @@
 @import url('../../common-Files/css/defaultSet.css');
+@import url('../../shipping/css/place-order.css');
 
 #app {
     display: flex;

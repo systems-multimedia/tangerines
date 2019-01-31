@@ -1,0 +1,74 @@
+#user-location {
+    width: 700px;
+}
+
+#options {
+    margin: 0px auto;
+}
+
+.data {
+    margin: 10px auto;
+    width: 600px;
+    padding: 10px 0px;
+    background: #2c2c2c;
+}
+
+.data ul {
+    width: 65%;
+    margin: 10px auto;
+}
+
+.data form {
+    width: 98%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.data form .loc-in {
+    width: 75%;
+    margin: 10px auto;
+    height: 20px;
+    padding: 5px 7px;
+}
+
+.data form li {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data ul li {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.data ul li h3 {
+    color: white;
+}
+
+.address-data {
+    color: #ffa63d;
+}
+
+#existing-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option-block {
+    display: none;
+}
+
+#existing:checked ~ #option1 {
+    display: block;
+}
+
+#-new:checked ~ #option2 {
+    display: block;
+}

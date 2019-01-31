@@ -1,11 +1,13 @@
 @import url('../../common-Files/css/defaultSet.css');
-@import url('./footer.css');
 @import url('./logger.css');
+
+body {
+    background-image: url(../../common-Files/img/spriteSheets/sp1-bg.jpg);
+}
 
 #app {
     display: flex;
     flex-wrap: wrap;
     width: 98%;
     margin: 15px auto;
-    margin-top: 115px;
 }

@@ -1,6 +1,15 @@
-var link = document.getElementsByClassName('go-to-Product');
+var footer = document.querySelector('footer');
+var header = document.querySelector('header');
+var app = document.querySelector('#app');
 
-for (var i = 0; i < link.length; i++) {
-    console.log(i);
-    link[i].setAttribute('href', '../html/product.html');
+window.addEventListener('load', function () { checkFooterPosition(); });
+window.addEventListener('click', function () { checkFooterPosition(); });
+window.addEventListener('resize', function () { checkFooterPosition(); });
+
+function checkFooterPosition() {
+    var distance = window.innerHeight - footer.getBoundingClientRect().bottom;
+    if (distance > 0) {
+        var move = "translateY(" + distance + "px)";
+        footer.style.transform = move;
+    }
 }
