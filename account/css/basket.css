@@ -1,0 +1,55 @@
+#products {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#products .product {
+    float: left;
+    margin: 15px;
+    transform: translateX(25%);
+    transition: 500ms all ease-in-out;
+    background: #2c2c2c;
+    padding: 30px 25px;
+}
+
+#products .product h2 {
+    text-align: center;
+}
+
+#products .product h2 a{
+    color: white;
+    width: 300px;
+}
+
+#products .product h2 a:hover {
+    color: #ffa63d;
+}
+
+.arrow {
+    height: 190px;
+    text-orientation: sideways-right;
+    padding-top: 160px;
+    position: absolute;
+    z-index: 5;
+    color: #4c4c4c;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: silver;
+}
+
+.--right-arrow {
+    right: 0;
+}
+
+#mycar-title {
+    background: #2c2c2c;
+    width: 98.5%;
+    border-radius: 7px;
+    margin: 10px auto;
+    padding: 10px;
+}

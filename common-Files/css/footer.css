@@ -30,3 +30,16 @@ footer ul li a {
 footer ul li a:hover {
     color: #ffa63d;
 }
+
+.--sticky-footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.--sticky-footer ul {
+    width: 25%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,82 @@
+.sideBar {
+    background: #2c2c2c;
+}
+
+.sideBar #user {
+    width: 95%;
+    margin: 15px auto;
+}
+
+.sideBar #user ul li {
+    margin: 6px auto;
+}
+
+.sideBar #user h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 1px;
+}
+.data {
+    color: #ffa63d;
+    font-size: 18px;
+}
+
+#account {
+    width: 75%;
+}
+
+.-settings {
+    height: 65vh;
+}
+
+.--full-settings{
+    height: auto;
+}
+
+#settings {
+    width: 95%;
+    
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.box {
+    border-radius: 7px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+.box a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box:hover {
+    background: #fae8db;
+}
+
+.icon {
+    width: 90px;
+    margin: auto;
+}
+
+.description {
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin: auto;
+}
+
+.description p {
+    margin: 12px auto;
+    width: 90%;
+}
