@@ -24,7 +24,7 @@ var error = document.querySelector('.error');
         }
 
         e.preventDefault();
-        document.location.href = "../html/dashboard.html";
+        document.location.href = "../../html/dashboard.html";
     }
 
     function checkRegister(e) {
